@@ -141,7 +141,9 @@ const Home = () => {
         setLoading(true);
 
         axios
-          .post("/api/simplify", formData)
+          .post("/api/simplify", formData, {
+            baseURL: "https://erdp-api.onrender.com",
+          })
           .then((res) => {
             setLoading(false);
             context.setData(res.data);
@@ -175,7 +177,9 @@ const Home = () => {
     setLoading(true);
 
     axios
-      .post("/api/simplify", formData)
+      .post("/api/simplify", formData, {
+        baseURL: "https://erdp-api.onrender.com",
+      })
       .then((res) => {
         setLoading(false);
         context.setData(res.data);
