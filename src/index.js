@@ -1,17 +1,49 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import LayoutContextProvider from "./components/layout/LayoutContext";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// pages
+import Home from "./pages/Home";
+import Results from "./pages/Results";
+import DynamicEpsilon from "./pages/DynamicEpsilon";
+import CPUParallelism from "./pages/CPUParallelism";
+import ClassicRDP from "./pages/ClassicRDP";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/results",
+    element: <Results />,
+    errorElement: <Home />,
+  },
+  {
+    path: "/dynamic-epsilon",
+    element: <DynamicEpsilon />,
+  },
+  {
+    path: "/cpu-parallelism",
+    element: <CPUParallelism />,
+  },
+  {
+    path: "/classic-rdp",
+    element: <ClassicRDP />,
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <ToastContainer />
+
+    <LayoutContextProvider>
+      <RouterProvider router={router} />
+    </LayoutContextProvider>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
