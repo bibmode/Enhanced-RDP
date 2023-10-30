@@ -5,7 +5,7 @@
   Enhanced-RDP - Client Side
 </h1>
 <p align="center">
-  Welcome to the client-side code repository for the <a href="https://enhanced-rdp.vercel.app" target="_blank">E-RDP website</a>! This client-side application is built with <a href="https://react.dev" target="_blank">ReactJS</a>a> and serves as the user interface for our Enhanced Ramer-Douglas-Peucker (E-RDP) algorithm.
+  Welcome to the client-side code repository for the <a href="https://enhanced-rdp.vercel.app" target="_blank">E-RDP website</a>! This client-side application is built with <a href="https://react.dev" target="_blank">ReactJS</a> and serves as the user interface for our Enhanced Ramer-Douglas-Peucker (E-RDP) algorithm.
 </p>
 <br/>
 <p align="center">
