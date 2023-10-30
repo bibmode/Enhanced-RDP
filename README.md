@@ -15,32 +15,40 @@
 <a href="https://enhanced-rdp.vercel.app" target="_blank"><img alt="Logo" src="https://imageupload.io/ib/vRjvy7DTt0gdPg2_1698654762.png" width="100%" /></a>
 
 
-## 🚨 Research Paper
+## 🎓 Research Paper
 
-## 🚨 Technologies
+## 🌐 Technologies
 ### Client-Side
-ReactJS
+[ReactJS](https://react.dev)
 
-TailwindCSS
-
+[TailwindCSS](https://tailwindcss.com)
 
 ### Server-Side ([Server-Side (Flask) Code](https://github.com/bibmode/ERDP-API))
-Flask
+[Flask](https://flask.palletsprojects.com/en/3.0.x/)
 
-Python
+### Deployment
+[Vercel](https://vercel.com/docs)
 
 
-## 🚨 Features
+## 🌟 How to Use
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+Follow these simple steps to utilize our tool effectively:
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+### Step 1 - Download Data From the Table
+- Scroll down to the table in the home page, you'll find a selection of CSV files available for download.
+- Click on the download link for the CSV file you want to process.
+- Alternatively, you can upload your own CSV file as long as it follows this [format](###format).
+<div align="center">
+  <img alt="Logo" src="https://imageupload.io/ib/LJkXYFCwOvIACSk_1698656571.png" width="70%" />
+</div>
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
-
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+### Step 2 - Upload Data
+- Once you've downloaded the CSV file, locate it on your device.
+- Drag and drop the CSV file into the designated drop box on our website.
+- Wait for the file to finish uploading.
+<div align="center">
+  <img alt="Logo" src="https://imageupload.io/ib/LJkXYFCwOvIACSk_1698656571.png" width="70%" />
+</div>
 
 ## 🛠 Installation & Set Up
 
