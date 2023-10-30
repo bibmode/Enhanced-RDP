@@ -5,17 +5,32 @@
   Enhanced-RDP - Client Side
 </h1>
 <p align="center">
-  Welcome to the client-side code repository for the <a href="https://enhanced-rdp.vercel.app" target="_blank">E-RDP website</a>! This client-side application is built with ReactJS and serves as the user interface for our Enhanced Ramer-Douglas-Peucker (E-RDP) algorithm.
+  Welcome to the client-side code repository for the <a href="https://enhanced-rdp.vercel.app" target="_blank">E-RDP website</a>! This client-side application is built with <a href="https://react.dev" target="_blank">ReactJS</a>a> and serves as the user interface for our Enhanced Ramer-Douglas-Peucker (E-RDP) algorithm.
 </p>
 <br/>
 <p align="center">
-  <a href="https://enhanced-rdp.vercel.app" target="_blank">Click here</a> to see the server side of the system made from Flask with our Enhanced Ramer-Douglas-Peucker algorithm.
+  👉🏻<a href="https://enhanced-rdp.vercel.app" target="_blank">Click here</a> to see the server side of the system made from Flask with our Enhanced Ramer-Douglas-Peucker algorithm.
 </p>
-
-<a href="https://enhanced-rdp.vercel.app" target="_blank"><img alt="Logo" src="https://imageupload.io/ib/vRjvy7DTt0gdPg2_1698654762.png" width="100%" /></a>
 <br/>
+<a href="https://enhanced-rdp.vercel.app" target="_blank"><img alt="Logo" src="https://imageupload.io/ib/vRjvy7DTt0gdPg2_1698654762.png" width="100%" /></a>
 
-## 🚨 Forking this repo (please read!)
+
+## 🚨 Research Paper
+
+## 🚨 Technologies
+### Client-Side
+ReactJS
+
+TailwindCSS
+
+
+### Server-Side ([Server-Side (Flask) Code](https://github.com/bibmode/ERDP-API))
+Flask
+
+Python
+
+
+## 🚨 Features
 
 Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
 
